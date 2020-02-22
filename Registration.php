@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
  $semester = $_POST['semester'];
  $email = $_POST['email'];
  $pass = $_POST['password'];
- $token = md5(rand('10000','9999'));
+ $token = md5(rand('00001', '99999'));
  $status = "Inactive";
  $result = pg_query_params($con,"SELECT * FROM userdetails WHERE email = $1", array($email));
     
@@ -44,7 +44,7 @@ if(isset($_POST['submit'])){
     else{
           $insert = "insert into userdetails(name,branchname,semester,email,password,useridgen,token,status) values($1,$2,$3,$4,$5,$6,$7,$8)";
          $run = pg_query_params($con,$insert,array($fullname,$branchname,$semester,$email,$pass,'',$token,$status));
-        $url = 'http://'.$_SERVER['SERVER_NAME'].'/section/verify.php?&token='.$token;
+        $url = $_SERVER['SERVER_NAME'].'/verify.php?&token='.$token;
         $output = '<div> Hey! '.$fullname.' <br>  Thanks For Register. Now Click on this link and verify your self <br>'.$url.'</div>';
         
     $mail = new PHPMailer();                      
