@@ -1,5 +1,8 @@
 <?php
 session_start();
+if(!$_SESSION['email']){
+    header("location:User.php");
+}
 if(isset($_SESSION['useridgen'])){
     header("location:vote.php");
 }
