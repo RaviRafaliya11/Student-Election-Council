@@ -11,9 +11,11 @@ require('mail.php');
 require("include/database.php");
 if($_POST){
  $email = $_POST['email'];
+ 
 $select = pg_query_params($con,"select * from userdetails where  email=$1",array($email));
  $count = pg_num_rows($select);
  $row =  pg_fetch_array($select);
+$fpass = base64_encode($row['password']);    
 if($count>0)
 {
     $mail = new PHPMailer;
@@ -34,14 +36,14 @@ try {
     $mail->addAddress($email);     
     $mail->isHTML(true);                                  
     $mail->Subject = 'SEC - FORGOT PASSWORD';
-    $mail->Body    = "Hi $email your password is: {$row['password']}";
+    $mail->Body    = "Hi $email your password is: <b> {$fpass} </b> <br> Now Convert this <b>base64encode to normal text</b> after that you will get your password";
 
     $mail->send();
-    echo "<script>alert('Your Password has been Sent to your email');
+    echo "<script>alert('Message has been sent to your mail, check Now');
     window.location.href='User.php';
     </script>";
 } catch (Exception $e) {
-    echo "<script>alert('Message could not be sent. Mailer Error:$mail->ErrorInfo');</script>";
+    echo "<script>alert('Message could not be sent.');</script>";
 }
 }
     else{
