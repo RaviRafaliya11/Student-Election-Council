@@ -27,6 +27,7 @@ if(isset($_POST['submit'])){
 
 <html>
     <head>
+        <link rel="icon" href="projectphotos/s02.png" type="image/png" sizes="16x16">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

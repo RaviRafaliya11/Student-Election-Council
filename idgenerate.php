@@ -45,6 +45,7 @@ if(pg_num_rows($run)){
         ?>
     <html>
     <head>
+        <link rel="icon" href="projectphotos/s02.png" type="image/png" sizes="16x16">
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">

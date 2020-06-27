@@ -6,6 +6,7 @@ if(!$_SESSION['email']){
 ?>
 <html>
 <head>
+    <link rel="icon" href="projectphotos/s02.png" type="image/png" sizes="16x16">
     <meta charset="utf-8">
     <title>SEC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

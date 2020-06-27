@@ -80,7 +80,7 @@ if(isset($_POST['submit'])){
 ?>
 <html>
     <head>
-
+<link rel="icon" href="projectphotos/s02.png" type="image/png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">  
     <meta http-equiv="X-UA-Compatible" content="ie=edge">

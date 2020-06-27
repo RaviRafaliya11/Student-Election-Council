@@ -12,6 +12,7 @@ if(isset($_SESSION['email'])) {
     <meta charset="utf-8">
     <title>SEC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="icon" href="projectphotos/s02.png" type="image/png" sizes="16x16">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
@@ -180,7 +181,7 @@ if(isset($_SESSION['email'])) {
 
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="projectphotos/SEC_Logo.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="projectphotos/SEC_Logo.png" class="w3-round w3-image w3-opacity-min" alt="SEClogo" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -193,7 +194,7 @@ if(isset($_SESSION['email'])) {
   <hr>
              <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="projectphotos/blueman.svg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="projectphotos/blueman.svg" class="w3-round w3-image w3-opacity-min" alt="About" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -211,7 +212,7 @@ if(isset($_SESSION['email'])) {
             
       <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="projectphotos/avtarBLUE.svg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="projectphotos/avtarBLUE.svg" class="w3-round w3-image w3-opacity-min" alt="Avatar" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -231,7 +232,7 @@ if(isset($_SESSION['email'])) {
             
         <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="projectphotos/idgen.svg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="projectphotos/idgen.svg" class="w3-round w3-image w3-opacity-min" alt="Info" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -245,7 +246,7 @@ if(isset($_SESSION['email'])) {
             
             <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="projectphotos/vote.svg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="projectphotos/vote.svg" class="w3-round w3-image w3-opacity-min" alt="Vote" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -258,7 +259,7 @@ if(isset($_SESSION['email'])) {
        <hr>    
     <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="projectphotos/result.svg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="projectphotos/result.svg" class="w3-round w3-image w3-opacity-min" alt="Result" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
