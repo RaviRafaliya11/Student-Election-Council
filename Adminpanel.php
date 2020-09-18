@@ -7,7 +7,7 @@ if(!$_SESSION['adminuser']){
 <html>
     <head>
  <meta charset="utf-8">
-    <title>SEC</title>
+    <title>Admin Panel - SEC</title>
         <link rel="icon" href="projectphotos/s02.png" type="image/png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">

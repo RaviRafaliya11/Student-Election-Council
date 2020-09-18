@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">  
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> SEC </title>
+    <title>Admin - SEC </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -181,7 +181,7 @@ if(isset($_POST['submit'])){
            		   </div>
            		   <div class="div">
            		   		<h5>Username</h5>
-           		   		<input type="text" class="input" name="adminuser" required>
+           		   		<input type="text" class="input" name="adminuser" autocomplete="off" required>
            		   </div>
            		</div>
            		<div class="input-div pass">

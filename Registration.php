@@ -84,7 +84,7 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">  
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> SEC </title>
+    <title>User Registration - SEC </title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -229,7 +229,7 @@ if(isset($_POST['submit'])){
         <div class="login-content">
 			<form action="" method="post">
            		<div class="form-group">
-                        <input type="text" class="form-control" name="fullname" placeholder="Enter Name" required style="border:none;outline:none;border-bottom:solid 2px gray;">
+                        <input type="text" class="form-control" name="fullname" placeholder="Enter Name" autocomplete="off" required style="border:none;outline:none;border-bottom:solid 2px gray;">
                     </div>
               <div class="form-group">
                     <select class="form-control" required name="branchname" style="border:none;outline:none;border-bottom:solid 2px gray;">
@@ -267,7 +267,7 @@ if(isset($_POST['submit'])){
                     </select>
                     </div>
                 <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email" required style="border:none;outline:none;border-bottom:solid 2px gray;">
+                        <input type="email" class="form-control" name="email" placeholder="Email" autocomplete="off" required style="border:none;outline:none;border-bottom:solid 2px gray;">
                     </div>
                 <div class="form-group">
                         <input type="password" class="form-control" name="password" placeholder="password" required style="border:none;outline:none;border-bottom:solid 2px gray;">

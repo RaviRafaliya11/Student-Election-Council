@@ -1,5 +1,5 @@
 
 <?php
 define('EMAIL','studentelectioncouncil@gmail.com');
-define('PASS','SECouncil013');
+define('PASS','013SECouncil');
 ?>

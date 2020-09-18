@@ -61,7 +61,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">  
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> SEC </title>
+    <title>Forgot Password - SEC </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -211,7 +211,7 @@ try {
            		   </div>
            		   <div class="div">
            		   		<h5>Enter Email</h5>
-           		   		<input type="email" class="input" name="email" required>
+           		   		<input type="email" class="input" name="email" autocomplete="off" required>
            		   </div>
            		</div>
             	<input type="submit" name="submit" class="btn" value="Send">
