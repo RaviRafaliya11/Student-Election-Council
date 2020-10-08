@@ -145,13 +145,13 @@ if(isset($_SESSION['email'])) {
     </ol>  
     <div class="carousel-inner">
         <div class="carousel-item active">  
-        <img src="projectphotos/ele1.png" width="100%" height="91%">    
+        <img src="projectphotos/isoEle1.png" width="100%" height="91%">    
         </div>  
         <div class="carousel-item" style="width: 100%;">  
-        <img src="projectphotos/ele2.png" width="100%" height="91%">  
+        <img src="projectphotos/isoEle2.jpg" width="100%" height="91%">  
         </div>
          <div class="carousel-item" style="width: 100%;">  
-        <img src="projectphotos/ele3.png" width="100%" height="91%">  
+        <img src="projectphotos/isoEle3.jpg" width="100%" height="91%">  
         </div>
          <div class="carousel-item" style="width: 100%;">  
         <img src="projectphotos/ele4.png" width="100%" height="91%">  
@@ -160,7 +160,7 @@ if(isset($_SESSION['email'])) {
         <img src="projectphotos/ele5.png" width="100%" height="91%">  
         </div>
          <div class="carousel-item" style="width: 100%;">  
-        <img src="projectphotos/ele6.png" width="100%" height="91%">  
+        <img src="projectphotos/isoEle4.jpg" width="100%" height="91%">  
         </div>
         
         
