@@ -257,7 +257,7 @@ if(isset($_SESSION['email'])) {
  
   </div>
         <footer class="w3-center w3-light-grey w3-padding-32">
-  <p>© Copyright 2020 - All Rights Reserved By <a title="SEC" target="_blank" class="w3-hover-text-green">SEC</a></p>
+  <p>© Project SEC 2020 - <a title="SEC" target="_blank" class="w3-hover-text-green">Student Election Council</a></p>
 </footer>
       <script
   src="https://code.jquery.com/jquery-3.4.1.js"
